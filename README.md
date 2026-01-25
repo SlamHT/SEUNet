@@ -1,6 +1,6 @@
-# SEUNet_PPIS
+# SEUNet
 ## Overview
-This repository is the source code of SEUNet-PPIS, accompanied with datasets and features.
+This repository is the source code, accompanied with datasets and features.
 
 ## Environment Setup
 
