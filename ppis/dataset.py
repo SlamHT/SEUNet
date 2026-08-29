@@ -131,7 +131,6 @@ class ProteinDataset(InMemoryDataset):
             edge_index = edge_index.long()
             rel_pos = pos[edge_index[0]] - pos[edge_index[1]]  # pos_j - pos_i (note in edge_index stores tuples like (j,i))
             edge_dist2 = torch.sqrt(rel_pos.pow(2).sum(-1, keepdims=True))
-            protbert_embeddings_arr = (protbert_embeddings_arr - protbert_embeddings_arr.min()) / (protbert_embeddings_arr.max() - protbert_embeddings_arr.min())
             try:
                 x = torch.from_numpy(np.concatenate([pssm, hmm, dssp, resAF, HSEexposureCA, protein_len, protbert_embeddings_arr], -1).astype('float32'))
             except Exception as err:
