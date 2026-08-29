@@ -39,3 +39,7 @@ python -u main.py --dataset=ppis --trainset=Train_335 --testset=Test_60 --epochs
 6. `datasets` contains the processed data files for training.
 
 7.  `saved_models` contains the trained parameters of our model during training.
+
+## Fine-tune ProtBERT weights and log
+
+You can download the weights and training log of the fine-tuned ProtBERT model via https://pan.baidu.com/s/1zYrK7WO7O1vXz7afzeiYJA. (access code:q140)
