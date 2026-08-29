@@ -9,7 +9,7 @@ conda env create -f environment.yml
 conda activate seunet
 ```
 
-## Training
+## Training and testing
 
 Firstly, you should concatenate the splitted files named `raw_part_*`, and unzip the generated `raw.zip` to obtain the datasets and features.
 
