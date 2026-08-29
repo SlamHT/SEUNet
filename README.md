@@ -42,4 +42,4 @@ python -u main.py --dataset=ppis --trainset=Train_335 --testset=Test_60 --epochs
 
 ## Fine-tune ProtBERT weights and log
 
-You can download the weights and training log of the fine-tuned ProtBERT model via https://pan.baidu.com/s/1zYrK7WO7O1vXz7afzeiYJA. (access code:q140)
+You can download the weights and training log of the fine-tuned ProtBERT model via https://pan.baidu.com/s/1zYrK7WO7O1vXz7afzeiYJA. (access code: q140)
